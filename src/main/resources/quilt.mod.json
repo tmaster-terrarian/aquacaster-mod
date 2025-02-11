@@ -3,7 +3,7 @@
     "quilt_loader": {
         "group": "dev.bscit",
         "id": "aquacaster",
-        "version": "${version}",
+        "version": "0.1.0",
         "metadata": {
             "name": "Aquacaster",
             "description": "woa, magic water!",
@@ -16,9 +16,7 @@
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "dev.bscit.aquacaster.Aquacaster",
-            "client": "dev.bscit.aquacaster.client.AquacasterClient",
-            "modmenu": "dev.bscit.aquacaster.compat.ModMenuEntry"
+            "init": "dev.bscit.aquacaster.Aquacaster"
         },
         "depends": [
             {
@@ -32,10 +30,6 @@
             {
                 "id": "minecraft",
                 "versions": ">=1.20"
-            },
-            {
-                "id": "cloth-config",
-                "versions": ">=15.0.140"
             },
             {
                 "id": "accessories",

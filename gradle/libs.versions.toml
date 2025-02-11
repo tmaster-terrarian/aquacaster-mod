@@ -10,8 +10,8 @@ quilted_fabric_api = "11.0.0-alpha.3+0.102.0-1.21"
 quilt_standard_libraries = "10.0.0-alpha.1+1.21"
 
 accessories = "1.1.0-beta.6+1.21.1"
-cloth_config = "15.0.140"
 modmenu = "11.0.1"
+quilt_config = "1.2.0"
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
@@ -23,8 +23,8 @@ quilted_fabric_api = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-a
 quilted_fabric_api_deprecated = { module = "org.quiltmc.quilted-fabric-api:quilted-fabric-api-deprecated", version.ref = "quilted_fabric_api" }
 
 accessories = { module = "io.wispforest:accessories-fabric", version.ref = "accessories" }
-cloth_config = { module = "me.shedaniel.cloth:cloth-config-fabric", version.ref = "cloth_config" }
 modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
+quilt_config = { module = "org.quiltmc:quilt-config", version.ref = "quilt_config" }
 
 # If you have multiple similar dependencies, you can declare a dependency bundle and reference it on the build script with "libs.bundles.example".
 [bundles]
