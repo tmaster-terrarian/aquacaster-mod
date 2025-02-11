@@ -1,7 +1,7 @@
 {
     "schema_version": 1,
     "quilt_loader": {
-        "group": "${group}",
+        "group": "dev.bscit",
         "id": "aquacaster",
         "version": "${version}",
         "metadata": {
@@ -34,7 +34,7 @@
                 "versions": ">=1.20"
             },
             {
-                "id": "cloth_config",
+                "id": "cloth-config",
                 "versions": ">=15.0.140"
             },
             {
