@@ -16,7 +16,9 @@
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "dev.bscit.aquacaster.Aquacaster"
+            "init": "dev.bscit.aquacaster.Aquacaster",
+            "client": "dev.bscit.aquacaster.client.AquacasterClient",
+            "modmenu": "dev.bscit.aquacaster.compat.ModMenuEntry"
         },
         "depends": [
             {
@@ -30,6 +32,14 @@
             {
                 "id": "minecraft",
                 "versions": ">=1.20"
+            },
+            {
+                "id": "cloth_config",
+                "versions": ">=15.0.140"
+            },
+            {
+                "id": "accessories",
+                "versions": ">=1.1.0-beta.6"
             }
         ]
     },
