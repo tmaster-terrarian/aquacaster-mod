@@ -16,7 +16,8 @@
         },
         "intermediate_mappings": "net.fabricmc:intermediary",
         "entrypoints": {
-            "init": "dev.bscit.aquacaster.Aquacaster"
+            "init": "dev.bscit.aquacaster.Aquacaster",
+            "client_init": "dev.bscit.aquacaster.client.AquacasterClient"
         },
         "depends": [
             {
